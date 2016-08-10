@@ -22,10 +22,18 @@ This section highlights the overall requirements for the project. If you are not
 You will use ASP.NET MVC to manage the user interface and page access. To manage access to application you will use ASP.NET Identity. To manage the database you will use Entity Framework with Code First Migrations.
 
 ### Public Mode
-The public mode is the default mode that unauthenticated users will see in your application. The main page of this mode should show a list of all genres from your database.  Within each genre, display the 5 most recently added movies to that genre. Clicking a genre will navigate the user to a page that shows all movies for a particular genre. Also on the main page, add the ability to search for movies by title.  This search should be done using AJAX, so that entering text into the search will automatically suggest titles. Finally, there should be a link to bring the user to a login page.  This page should use ASP.NET Identity to authenticate the user and navigate them to the admin mode of the application.
+- Show a list of all genres from your database, with the 5 most recently added movies to that genre
+- Clicking a genre will navigate to a page that shows all movies for a particular genre
+- Ability to search for movies by title.  This search should be done using AJAX, so that entering text into the search will automatically suggest titles
 
 ### Admin Mode
-Admin pages should only be available to users with valid credentials to your application. Once in admin mode, an admin user should have to ability to add/edit/remove genres. A genre should at least include a *Name*, but feel free to include any other information you think is relevant.  If a genre contains any movies, then the user should not be able to delete that genre until all of the movies are removed from that genre.  The user should also have the ability to add/edit/remove movies. A movie should include a *Title*, *Year*, and *Genre*, but feel free to include any other information you think is relevant.  Finally, admin users should have to ability to add/edit/delete all admin users, but they should not have the ability to delete themselves.  An admin user should include an *E-mail address/Username* and *Password*, but feel free to include any other information you think is relevant.
+- Authentication should be handled using ASP.NET Identity
+- Ability to add/edit/remove genres
+- Genre should at least include a *Name*, but feel free to include any other information you think is relevant
+- If a genre contains any movies, then the user should not be able to delete that genre until all of the movies are removed from that genre
+- Ability to add/edit/remove movies
+- Movie should include a *Title*, *Year*, and *Genre*, but feel free to include any other information you think is relevant
+- Ability to add/edit/delete all admin users, but they should not have the ability to delete themselves
 
 NOTE: Please add one Admin User to the Seed method of your database so that we can log in and test your application.
 
