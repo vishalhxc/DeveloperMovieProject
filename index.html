@@ -48,42 +48,17 @@
 <h3>
 <a id="general-requirements" class="anchor" href="#general-requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General Requirements</h3>
 
-<p>You will use MVC to manage the user interface and page access. </p>
+<p>You will use ASP.NET MVC to manage the user interface and page access. To manage access to application you will use ASP.NET Identity. To manage the database you will use Entity Framework with Code First Migrations. If you are not familiar with these concepts please refer to the <a href="#References">reference links</a> below for more information.</p>
 
 <h3>
 <a id="public-mode" class="anchor" href="#public-mode" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Public Mode</h3>
 
-<ul>
-<li>List movies categorized by genres on the main index page of the application</li>
-<li>Movies in each genre should be the 5 recently added movies that genre</li>
-<li>Click the genre to see all movies in that genre on a new page</li>
-<li>Ability to search for movies by title. Entering text in search should suggest titles. This should be done through an API to provide the suggestions invoked using AJAX</li>
-</ul>
+<p>The public mode is the default mode that unauthenticated users will see in your application. The main page of this mode should show a list of all genres from your database.  Within each genre, display the 5 most recently added movies to that genre. Clicking a genre will navigate the user to a page that shows all movies for a particular genre. Also on the main page, add the ability to search for movies by title.  This search should be done using AJAX, so that entering text into the search will automatically suggest titles. Finally, there should be a link to bring the user to a login page.  This page should use ASP.NET Identity to authenticate the user and navigate them to the admin mode of the application.</p>
 
 <h3>
 <a id="admin-mode" class="anchor" href="#admin-mode" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Admin Mode</h3>
 
-<ul>
-<li>All admin pages should be secured by Forms login</li>
-<li>Manage admin users</li>
-<li>Manage list of genres</li>
-<li>Ability to add/edit/delete movies</li>
-</ul>
-
-<h2>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h2>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h2>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h2>
-
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h2>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h2>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<p>Admin pages should only be available to users with valid credentials to your application. Once in admin mode, an admin user should have to ability to add/edit/remove genres. A genre should at least include a <em>Name</em>, but feel free to include any other information you think is relevant.  If a genre contains any movies, then the user should not be able to delete that genre until all of the movies are removed from that genre.  The user should also have the ability to add/edit/remove movies. A movie should include a <em>Title</em>, <em>Year</em>, and <em>Genre</em>, but feel free to include any other information you think is relevant.  Finally, admin users should have to ability to add/edit/delete all admin users, but they should not have the ability to delete themselves.  An admin user should include an <em>E-mail address/Username</em> and <em>Password</em>, but feel free to include any other information you think is relevant.</p>
 
 <h2>
 <a id="references" class="anchor" href="#references" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a name="References"></a>References</h2>
