@@ -1,7 +1,7 @@
 ## Overview
 Create a basic ASP.NET/C# MVC movie management application. The application can be used in two modes - public and admin. The public mode is what a normal user would use to browse/search for movies stored in the database. The admin mode is for an authenticated user who can add/edit/delete movies in the database.
 
-This project is meant to test overall familiarity of the developer using .NET technologies (MVC, Entity Framework, ASP.NET Identity) as well as determine the comfort level of the developer with front-end coding through HTML/CSS/Javascript. Once the project is complete, the result will be reviewed for:
+This project is meant to test the developer's overall familiarity of  using .NET technologies (MVC, Entity Framework, ASP.NET Identity) as well as determine their comfort level with front-end coding through HTML/CSS/Javascript. Once the project is complete, the result will be reviewed for:
 * Meeting all the requirements as set forth below
 * Code organization, quality and cleanliness
 * Use of any design patterns
@@ -19,7 +19,7 @@ Please download the latest version of [Visual Studio Community 2015](https://www
 This section highlights the overall requirements for the project. If you are not familiar with any of these concepts, we have provided [reference links](#References) below for more information.
 
 ### General Requirements
-You will use ASP.NET MVC to manage the user interface and page access. To manage access to application you will use ASP.NET Identity. To manage the database you will use Entity Framework with Code First Migrations.
+You will use ASP.NET MVC to manage the user interface and page access. To manage access to the application you will use ASP.NET Identity. To manage the database you will use Entity Framework with Code First Migrations.
 
 ### Public Mode
 - Show a list of all genres from your database, with the 5 most recently added movies to that genre
