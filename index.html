@@ -60,19 +60,31 @@
 <h3>
 <a id="public-mode" class="anchor" href="#public-mode" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Public Mode</h3>
 
-<p>The public mode is the default mode that unauthenticated users will see in your application. The main page of this mode should show a list of all genres from your database.  Within each genre, display the 5 most recently added movies to that genre. Clicking a genre will navigate the user to a page that shows all movies for a particular genre. Also on the main page, add the ability to search for movies by title.  This search should be done using AJAX, so that entering text into the search will automatically suggest titles. Finally, there should be a link to bring the user to a login page.  This page should use ASP.NET Identity to authenticate the user and navigate them to the admin mode of the application.</p>
+<ul>
+<li>Show a list of all genres from your database, with the 5 most recently added movies to that genre</li>
+<li>Clicking a genre will navigate to a page that shows all movies for a particular genre</li>
+<li>Ability to search for movies by title.  This search should be done using AJAX, so that entering text into the search will automatically suggest titles</li>
+</ul>
 
 <h3>
 <a id="admin-mode" class="anchor" href="#admin-mode" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Admin Mode</h3>
 
-<p>Admin pages should only be available to users with valid credentials to your application. Once in admin mode, an admin user should have to ability to add/edit/remove genres. A genre should at least include a <em>Name</em>, but feel free to include any other information you think is relevant.  If a genre contains any movies, then the user should not be able to delete that genre until all of the movies are removed from that genre.  The user should also have the ability to add/edit/remove movies. A movie should include a <em>Title</em>, <em>Year</em>, and <em>Genre</em>, but feel free to include any other information you think is relevant.  Finally, admin users should have to ability to add/edit/delete all admin users, but they should not have the ability to delete themselves.  An admin user should include an <em>E-mail address/Username</em> and <em>Password</em>, but feel free to include any other information you think is relevant.</p>
+<ul>
+<li>Authentication should be handled using ASP.NET Identity</li>
+<li>Ability to add/edit/delete genres</li>
+<li>Genre should at least include a <em>Name</em>, but feel free to include any other information you think is relevant</li>
+<li>If a genre contains any movies, then the user should not be able to delete that genre until all of the movies are removed from that genre</li>
+<li>Ability to add/edit/delete movies</li>
+<li>Movie should include a <em>Title</em>, <em>Year</em>, and <em>Genre</em>, but feel free to include any other information you think is relevant</li>
+<li>Ability to add/edit/delete all admin users, but they should not have the ability to delete themselves</li>
+</ul>
 
 <p>NOTE: Please add one Admin User to the Seed method of your database so that we can log in and test your application.</p>
 
 <h2>
 <a id="deliverables" class="anchor" href="#deliverables" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Deliverables</h2>
 
-<p>Please fork the DeveloperMovieProject to your own GitHub account. You will then have a clean copy of the beginning template to build your project.</p>
+<p>Please fork the DeveloperMovieProject to your own GitHub account. Commit all of your project work to this forked repository.</p>
 
 <p>Once you finish the project, make sure to push all of your code to the repository and then send us a link.</p>
 
