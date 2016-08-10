@@ -28,17 +28,17 @@ You will use ASP.NET MVC to manage the user interface and page access. To manage
 
 ### Admin Mode
 - Authentication should be handled using ASP.NET Identity
-- Ability to add/edit/remove genres
+- Ability to add/edit/delete genres
 - Genre should at least include a *Name*, but feel free to include any other information you think is relevant
 - If a genre contains any movies, then the user should not be able to delete that genre until all of the movies are removed from that genre
-- Ability to add/edit/remove movies
+- Ability to add/edit/delete movies
 - Movie should include a *Title*, *Year*, and *Genre*, but feel free to include any other information you think is relevant
 - Ability to add/edit/delete all admin users, but they should not have the ability to delete themselves
 
 NOTE: Please add one Admin User to the Seed method of your database so that we can log in and test your application.
 
 ## Deliverables
-Please fork the DeveloperMovieProject to your own GitHub account. You will then have a clean copy of the beginning template to build your project.
+Please fork the DeveloperMovieProject to your own GitHub account. Commit all of your project work to this forked repository.
 
 Once you finish the project, make sure to push all of your code to the repository and then send us a link.
 
