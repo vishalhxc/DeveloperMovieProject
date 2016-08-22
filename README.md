@@ -35,7 +35,7 @@ You will use ASP.NET MVC to manage the user interface and page access. To manage
 - Movie should include a *Title*, *Year*, and *Genre*, but feel free to include any other information you think is relevant
 - Ability to add/edit/delete all admin users, but they should not have the ability to delete themselves
 
-NOTE: Please add one Admin User to the Seed method of your database so that we can log in and test your application.
+NOTE: Please add one Admin User to the Seed method in Configuration.cs so that we can log in and test your application.
 
 ## Deliverables
 Please fork the DeveloperMovieProject to your own GitHub account. Commit all of your project work to this forked repository.
