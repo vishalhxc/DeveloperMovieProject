@@ -1,0 +1,17 @@
+﻿@model IEnumerable<DeveloperMovieProject.ViewModels.HomeViewModel>
+
+<div class="container">
+    <h1>Home</h1>
+    @foreach (var item in Model)
+    {
+        <h2><a asp-action="View" asp-controller="Genre">@item.Genre.Name</a></h2>
+        <ul>
+            @foreach(var movie in item.Movies)
+            {
+                <li>
+                    <h3>@movie.Title (@movie.Year.ToString())</h3>
+                </li>
+            }
+        </ul>
+    }
+</div>

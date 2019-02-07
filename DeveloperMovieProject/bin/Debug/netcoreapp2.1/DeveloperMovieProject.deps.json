@@ -3227,21 +3227,21 @@
     "Node.js/0.12.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-15c78ckXi3Zv6FWU5/1XrcIPiE+a+oK3xZLAEAHXWbHv2dy/ILBG2qGFPGW92dei3/JJ11mHWhB941tQ465A6w==",
+      "sha512": "sha512-fttKkPNr9qOh1lkXXmnkxlQLexU1W/aGjA6/EOQxP93u28GV5KhjkJWpV0V5k6lI10Bp0RF8C/6R4RpdeMiTPw==",
       "path": "node.js/0.12.7",
       "hashPath": "node.js.0.12.7.nupkg.sha512"
     },
     "NoGit/0.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NJY9sH90rT75WF3fAf832poUntcnw+zLGxk1fQR01efWj+eLEpvLbXtLyY4V0Gr07avyJByvrewyqbf01MhJCQ==",
+      "sha512": "sha512-Hnu2wsvZrAel6GhUPyCo5gbp2vg0aUiOe1ciqHRkE4/I94L9tr25vhceKZzvAylVrQdW8Bpl9wBRZ4ATd1HcXg==",
       "path": "nogit/0.1.0",
       "hashPath": "nogit.0.1.0.nupkg.sha512"
     },
     "Npm/3.5.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Jj3UFTTDCAP38rhGvwMe+Wv5hbPjBwePzvwtX69CeEtZ9uiIWKGiZdvpGV0JGlti2INa7k7DuL1uRaOlQunA8w==",
+      "sha512": "sha512-ANWnd4tSYDIcG/hccHTN0xcGrLHA8qkm0wnY/aSrKvPe4Cx6hB4aZJwSjBqWyAA+74aF6moosrVtZsqCqWd9Nw==",
       "path": "npm/3.5.2",
       "hashPath": "npm.3.5.2.nupkg.sha512"
     },

@@ -7129,10 +7129,9 @@
       ]
     },
     "Node.js/0.12.7": {
-      "sha512": "15c78ckXi3Zv6FWU5/1XrcIPiE+a+oK3xZLAEAHXWbHv2dy/ILBG2qGFPGW92dei3/JJ11mHWhB941tQ465A6w==",
+      "sha512": "fttKkPNr9qOh1lkXXmnkxlQLexU1W/aGjA6/EOQxP93u28GV5KhjkJWpV0V5k6lI10Bp0RF8C/6R4RpdeMiTPw==",
       "type": "package",
       "path": "node.js/0.12.7",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7147,10 +7146,9 @@
       ]
     },
     "NoGit/0.1.0": {
-      "sha512": "NJY9sH90rT75WF3fAf832poUntcnw+zLGxk1fQR01efWj+eLEpvLbXtLyY4V0Gr07avyJByvrewyqbf01MhJCQ==",
+      "sha512": "Hnu2wsvZrAel6GhUPyCo5gbp2vg0aUiOe1ciqHRkE4/I94L9tr25vhceKZzvAylVrQdW8Bpl9wBRZ4ATd1HcXg==",
       "type": "package",
       "path": "nogit/0.1.0",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8079,10 +8077,9 @@
       ]
     },
     "Npm/3.5.2": {
-      "sha512": "Jj3UFTTDCAP38rhGvwMe+Wv5hbPjBwePzvwtX69CeEtZ9uiIWKGiZdvpGV0JGlti2INa7k7DuL1uRaOlQunA8w==",
+      "sha512": "ANWnd4tSYDIcG/hccHTN0xcGrLHA8qkm0wnY/aSrKvPe4Cx6hB4aZJwSjBqWyAA+74aF6moosrVtZsqCqWd9Nw==",
       "type": "package",
       "path": "npm/3.5.2",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -15661,13 +15658,13 @@
       "projectName": "DeveloperMovieProject",
       "projectPath": "/Users/vishal/Documents/source/repos/DeveloperMovieProject/DeveloperMovieProject/DeveloperMovieProject.csproj",
       "packagesPath": "/Users/vishal/.nuget/packages/",
-      "outputPath": "/Users/vishal/Documents/source/repos/DeveloperMovieProject/DeveloperMovieProject/obj/",
+      "outputPath": "/Users/vishal/Documents/source/repos/DeveloperMovieProject/DeveloperMovieProject/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/vishal/.nuget/NuGet/NuGet.Config"
+        "/Users/vishal/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -15692,8 +15689,7 @@
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.1.1, )",
-            "autoReferenced": true
+            "version": "[2.1.1, )"
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",
@@ -15701,6 +15697,7 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

@@ -26,7 +26,7 @@ namespace DeveloperMovieProject
             services.AddScoped<IDeveloperMovieProjectRepository, DeveloperMovieProjectRepository>();
             services.AddIdentity<AdminMovieUser, IdentityRole>(config =>
             {
-                config.User.RequireUniqueEmail = true;
+                config.User.RequireUniqueEmail = false;
                 config.Password.RequiredUniqueChars = 0;
                 config.Password.RequireDigit = false;
                 config.Password.RequireLowercase = false;
