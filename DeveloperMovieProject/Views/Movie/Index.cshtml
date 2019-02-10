@@ -1,0 +1,14 @@
+﻿@model IEnumerable<DeveloperMovieProject.Models.Movie>
+@{
+}
+
+<h1>Movies</h1>
+<h2>@ViewData["Title"]</h2>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>
+            <p>@item.Title (@item.Year)</p>
+        </li>
+    }
+</ul>

@@ -31,7 +31,6 @@
 /Users/vishal/Documents/source/repos/DeveloperMovieProject/DeveloperMovieProject/obj/Debug/netcoreapp2.1/DeveloperMovieProject.TagHelpers.input.cache
 /Users/vishal/Documents/source/repos/DeveloperMovieProject/DeveloperMovieProject/obj/Debug/netcoreapp2.1/DeveloperMovieProject.TagHelpers.output.cache
 /Users/vishal/Documents/source/repos/DeveloperMovieProject/DeveloperMovieProject/obj/Debug/netcoreapp2.1/DeveloperMovieProject.RazorCoreGenerate.cache
-/Users/vishal/Documents/source/repos/DeveloperMovieProject/DeveloperMovieProject/obj/Debug/netcoreapp2.1/Razor/Views/Index.g.cshtml.cs
 /Users/vishal/Documents/source/repos/DeveloperMovieProject/DeveloperMovieProject/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs
 /Users/vishal/Documents/source/repos/DeveloperMovieProject/DeveloperMovieProject/obj/Debug/netcoreapp2.1/DeveloperMovieProject.RazorTargetAssemblyInfo.cs
 /Users/vishal/Documents/source/repos/DeveloperMovieProject/DeveloperMovieProject/obj/Debug/netcoreapp2.1/DeveloperMovieProject.Views.pdb
@@ -42,4 +41,5 @@
 /Users/vishal/Documents/source/repos/DeveloperMovieProject/DeveloperMovieProject/obj/Debug/netcoreapp2.1/Razor/Views/Account/Login.g.cshtml.cs
 /Users/vishal/Documents/source/repos/DeveloperMovieProject/DeveloperMovieProject/obj/Debug/netcoreapp2.1/Razor/Views/Account/Register.g.cshtml.cs
 /Users/vishal/Documents/source/repos/DeveloperMovieProject/DeveloperMovieProject/obj/Debug/netcoreapp2.1/Razor/Views/Genre/Index.g.cshtml.cs
-/Users/vishal/Documents/source/repos/DeveloperMovieProject/DeveloperMovieProject/obj/Debug/netcoreapp2.1/Razor/Views/Home/Search.g.cshtml.cs
+/Users/vishal/Documents/source/repos/DeveloperMovieProject/DeveloperMovieProject/obj/Debug/netcoreapp2.1/Razor/Views/Movie/Index.g.cshtml.cs
+/Users/vishal/Documents/source/repos/DeveloperMovieProject/DeveloperMovieProject/obj/Debug/netcoreapp2.1/Razor/Views/Movie/Search.g.cshtml.cs

@@ -1,4 +1,14 @@
 ﻿@model IEnumerable<DeveloperMovieProject.Models.Genre>
 @{
-    ViewData["Title"] = "Genre";
+    ViewData["Title"] = "Genres";
 }
+
+<h1>Genres</h1>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>
+            <h2><a asp-action="Genre" asp-controller="Movie" asp-route-id="@item.Id">@item.Name</a></h2>
+        </li>
+    }
+</ul>

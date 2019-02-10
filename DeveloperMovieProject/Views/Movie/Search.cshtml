@@ -1,0 +1,20 @@
+﻿@model IEnumerable<DeveloperMovieProject.Models.Movie>
+@{
+    ViewData["Title"] = "Search";
+}
+
+@section Scripts {
+    <script src="~/js/jquery.validate.min.js"></script>
+    <script src="~/js/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/js/search.js"></script>
+}
+
+<h1>Search</h1>
+<div class="form-group">
+    <label for="search"></label>
+    <input id="search" class="form-control" onkeyup='search()' />
+</div>
+
+<div id="results">
+
+</div>

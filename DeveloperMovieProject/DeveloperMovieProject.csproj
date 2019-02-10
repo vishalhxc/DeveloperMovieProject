@@ -18,6 +18,8 @@
     <Folder Include="ViewModels\" />
     <Folder Include="Views\Genre\" />
     <Folder Include="Views\Account\" />
+    <Folder Include="Views\Movie\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,6 +36,11 @@
     <Content Remove="wwwroot\js\jquery.min.js" />
     <Content Remove="wwwroot\js\jquery.validate.min.js" />
     <Content Remove="wwwroot\js\jquery.validate.unobtrusive.min.js" />
+    <Content Remove="wwwroot\images\EmptyCSSFile.css" />
+    <Content Remove="wwwroot\images\squares.gif" />
+    <Content Remove="wwwroot\js\loading.gif" />
+    <Content Remove="wwwroot\js\search.js" />
+    <Content Remove="wwwroot\images\loading.gif" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\css\bootstrap.min.css" />
@@ -42,5 +49,10 @@
     <None Include="wwwroot\js\jquery.min.js" />
     <None Include="wwwroot\js\jquery.validate.min.js" />
     <None Include="wwwroot\js\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\images\squares.gif" />
+    <None Include="wwwroot\images\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Views\Movie\IndexPm.cshtml.cs" />
   </ItemGroup>
 </Project>

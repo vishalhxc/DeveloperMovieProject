@@ -12,7 +12,7 @@ namespace DeveloperMovieProject.Data
         IEnumerable<HomeViewModel> GetHomeView();
         IEnumerable<Genre> GetGenres();
         IEnumerable<Movie> GetMovies();
-        IEnumerable<Movie> GetMoviesByGenre(Genre genre);
+        IEnumerable<Movie> GetMoviesByGenre(int genreId);
         Task<IEnumerable<Movie>> GetMoviesSearch(string query);
         void UpdateMovie(Movie movie);
         void UpdateGenre(Genre genre);

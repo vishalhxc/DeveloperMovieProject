@@ -18,6 +18,9 @@
                             <a asp-action="Index" asp-controller="Movie" class="nav-link">Movies</a>
                         </li>
                         <li class="nav-item">
+                            <a asp-action="Search" asp-controller="Movie" class="nav-link">Search</a>
+                        </li>
+                        <li class="nav-item">
                             <a asp-action="Index" asp-controller="Genre" class="nav-link">Genres</a>
                         </li>
                         <li class="nav-item">
@@ -35,12 +38,12 @@
             </div>
         </nav>
     </header>
-    <main class="padded-top">
+    <main class="padded-top container">
         @RenderBody()
     </main>
     <footer></footer>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
     @RenderSection("Scripts", false)
 </body>
 </html>

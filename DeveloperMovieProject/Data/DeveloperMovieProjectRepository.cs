@@ -38,14 +38,17 @@ namespace DeveloperMovieProject.Data
 
         public IEnumerable<Genre> GetGenres()
         {
-            throw new NotImplementedException();
+            var genres = _context.Genres
+                .OrderBy(g => g.Name)
+                .ToArray();
+            return genres;
         }
 
         public IEnumerable<HomeViewModel> GetHomeView()
         {
             var genres = _context.Genres
                 .OrderBy(g => g.Name)
-                .ToList();
+                .ToArray();
 
             var homeView = new List<HomeViewModel>();
             foreach(Genre genre in genres)
@@ -66,19 +69,30 @@ namespace DeveloperMovieProject.Data
 
         public IEnumerable<Movie> GetMovies()
         {
-            throw new NotImplementedException();
+            var movies = _context.Movies
+                .OrderByDescending(m => m.Year)
+                .Take(25)
+                .ToArray();
+            return movies;
         }
 
-        public IEnumerable<Movie> GetMoviesByGenre(Genre genre)
+        public IEnumerable<Movie> GetMoviesByGenre(int genreId)
         {
-            throw new NotImplementedException();
+            var movies = _context.Movies
+                .Where(m => m.Genre.Id == genreId)
+                .OrderByDescending(m => m.Year)
+                .Include(m => m.Genre)
+                .Take(25)
+                .ToArray();
+            return movies;
         }
 
         public async Task<IEnumerable<Movie>> GetMoviesSearch(string query)
         {
             return await _context.Movies
                 .Where(m => m.Title.Contains(query))
-                .ToListAsync();
+                .Take(25)
+                .ToArrayAsync();
         }
 
         public bool SaveAll()
